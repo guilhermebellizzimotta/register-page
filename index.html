@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>petland | Register Page</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img
+            src="./assets/logo.png"
+            alt="petland logo"
+            width=45px;
+            />
+            <h1> petland </h1>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="#about"> Sobre Nós </a> </li>
+                <li> <a href="#register"> Registro </a> </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="hero"></div>
+        <div class="content">
+            <div id="about">
+                <h2> Sobre Nós </h2>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita molestiae libero voluptate, voluptas illum non ad dignissimos architecto praesentium corrupti eius, magnam vitae, pariatur deserunt in officia aliquam aperiam doloribus. </p>
+            </div>
+            <div id="register">
+                <h2> Registro </h2>
+                <form method="post" action="http://httpbin.org/post">
+                    <div class="register-item">
+                        <label for="name"> Primeiro Nome </label>
+                        <input id="name" name="name" type="text" placeholder="John" required> 
+                        <label for="email"> E-mail </label> 
+                        <input id="email" name="email" type="text" required placeholder="Insira seu E-Mail"> 
+                    </div>
+                    <div class="register-item">
+                        <label for="last-name"> Último Nome </label>
+                        <input id="last-name" name="last-name" type="text" placeholder="Doe"required> 
+                        <label for="password"> Senha </label>
+                        <input id="password" name="password" type="password" placeholder="Insira sua senha"required>
+                    </div>
+                    <div class="register-button">
+                        <button type="submit"> Registre-se! </button>
+                    </div>
+                </form>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="social-logo"
+                    src="./assets/facebook.png"
+                    alt="facebook icon"
+                    />
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img class="social-logo"
+                    src="./assets/instagram.png"
+                    alt="instagram icon"
+                    />
+                </a>
+                <a href="https://www.pinterest.com/" target="_blank">
+                    <img class="social-logo"
+                    src="./assets/pinterest.png"
+                    alt="facebook icon"
+                    />
+                </a>
+                <a href="https://github.com/guilhermebellizzimotta/" target="_blank">
+                    <img class="social-logo"
+                    src="./assets/github.png"
+                    alt="github icon"
+                />
+            </a>   
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
